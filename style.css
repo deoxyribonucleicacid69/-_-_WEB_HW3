@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("а\ там\ армяне\ в\ нарды\ играют\ нарды.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+
+}
+
+.content {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+}
+
+#zone {
+    width: 479px;
+    margin: 0 auto;
+    font-size: 0;
+    background-color: rgb(84, 229, 255);
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    border: 5px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.box:hover {
+    background-color: #0017c3;
+    color: #0017c3;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 169px;
+    height: 52px;
+    background-color: green;
+
+}
